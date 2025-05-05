@@ -46,15 +46,7 @@ public class SoundManager : MonoBehaviour
         public enum SE
         {
             // これがラベルになる
-            Decision, Cansel, 
-            OpenFinishWindow,
-            BoxOpen, BoxHover,
-            ItemPickup, ItemFailed,
-            InDustBox,
-            OpenDoor, CloseDoor,
-            OpenManual, CloseManual, PegerManual,
-            LimitMessage,
-            ResultMainSE, ResultSubSE,
+            Decision, Cancel,
         }
 
         public SE se;
